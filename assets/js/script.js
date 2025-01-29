@@ -189,7 +189,7 @@ async function fetchData(type = "skills") {
   {
     "name": "React Native Basic App",
     "desc": "Installed Android Studio, configured necessary SDKs, resolved errors, and successfully ran the default basic app on the emulator.",
-    "image": "ReactNative",
+    "image": "reactnative",
     "category": "android",
     "links": {
       "view": "https://www.linkedin.com/in/zeeshanmughaal",
