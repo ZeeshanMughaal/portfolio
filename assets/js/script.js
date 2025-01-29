@@ -195,7 +195,7 @@ async function fetchData(type = "skills") {
       "view": "https://www.linkedin.com/in/zeeshanmughaal",
       "code": "https://github.com/ZeeshanMughaal/android-emulator-setup"
     }
-  },
+  }
 ]`;
   }
   // ? (response = await fetch("skills.json"))
