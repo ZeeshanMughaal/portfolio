@@ -186,17 +186,16 @@ async function fetchData(type = "skills") {
 `;
   } else {
     data = `[
-  {
-    "name": "NotyStack Android",
-    "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
-    "image": "notystackandroid",
-    "category": "android",
-    "links": {
-      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-      "code": "https://github.com/jigar-sable/notystack-android"
-    }
-  },
-  {
+ {
+  "name": "Android Studio Basic App",
+  "desc": "Installed Android Studio, configured necessary SDKs, resolved errors, and successfully ran the default basic app on the emulator.",
+  "image": "androidsetup",
+  "category": "android",
+  "links": {
+    "view": "https://www.linkedin.com/in/zeeshanmughaal",
+    "code": "https://github.com/ZeeshanMughaal/android-emulator-setup"
+  }
+},{
     "name": "SPPU Engg Prep",
     "desc": "All in one SPPU Engineering resources. Built using Java, XML and Firebase.",
     "image": "sppuprepandroid",
