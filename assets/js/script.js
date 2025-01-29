@@ -185,16 +185,18 @@ async function fetchData(type = "skills") {
 ]
 `;
   } else {
-    data = `[{
-  "name": "Android Studio Basic App",
-  "desc": "Installed Android Studio, configured necessary SDKs, resolved errors, and successfully ran the default basic app on the emulator.",
-  "image": "androidsetup",
-  "category": "android",
-  "links": {
-    "view": "https://www.linkedin.com/in/zeeshanmughaal",
-    "code": "https://github.com/ZeeshanMughaal/android-emulator-setup"
-  }
-}]`;
+    data = `[
+    {
+    "name": "Android Studio Basic App",
+    "desc": "Installed Android Studio, configured necessary SDKs, resolved errors, and successfully ran the default basic app on the emulator.",
+    "image": "androidsetup",
+    "category": "android",
+    "links": {
+      "view": "https://www.linkedin.com/in/zeeshanmughaal",
+      "code": "https://github.com/ZeeshanMughaal/android-emulator-setup"
+    }
+  },
+]`;
   }
   // ? (response = await fetch("skills.json"))
   // : (response = await fetch("./projects/projects.json"));
