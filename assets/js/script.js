@@ -199,13 +199,13 @@ async function fetchData(type = "skills") {
 // ]`;
     data = `[
   {
-    "name": "NotyStack Android",
-    "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
-    "image": "notystackandroid",
+    "name": "React Native Basic App",
+    "desc": "Installed Android Studio, configured necessary SDKs, resolved errors, and successfully ran the default basic app on the emulator.",
+    "image": "reactnative2",
     "category": "android",
     "links": {
-      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-      "code": "https://github.com/jigar-sable/notystack-android"
+      "view": "https://www.linkedin.com/in/zeeshanmughaal",
+      "code": "https://github.com/ZeeshanMughaal/FirstReactNativeApp"
     }
   },
   {
