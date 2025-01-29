@@ -185,7 +185,7 @@ async function fetchData(type = "skills") {
 ]
 `;
   } else {
-   const data = `[
+  data = `[
   {
     "name": "Android Studio Basic App",
     "desc": "Installed Android Studio, configured necessary SDKs, resolved errors, and successfully ran the default basic app on the emulator.",
