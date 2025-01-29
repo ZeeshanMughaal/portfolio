@@ -225,7 +225,6 @@ function showProjects(projects) {
   let projectHTML = "";
   console.log(projects);
   JSON.parse(projects)
-    .filter((project) => project.category != "android")
     .forEach((project) => {
       projectHTML += `
         <div class="box tilt">
