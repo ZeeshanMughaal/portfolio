@@ -223,9 +223,8 @@ function showSkills(skills) {
 function showProjects(projects) {
   let projectsContainer = document.querySelector("#work .box-container");
   let projectHTML = "";
-  console.log(projects);
-  JSON.parse(projects)
-    .forEach((project) => {
+  console.log(JSON.parse(projects));
+  JSON.parse(projects).filter((project) => project.category === "android").forEach((project) => {
       projectHTML += `
         <div class="box tilt">
       <img draggable="false" src="../Portfolio-Website/assets/images/projects/${project.image}.png" alt="project" />
