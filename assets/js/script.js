@@ -185,8 +185,8 @@ async function fetchData(type = "skills") {
 ]
 `;
   } else {
-    data = `[
-    {
+    data = [
+  {
     "name": "Android Studio Basic App",
     "desc": "Installed Android Studio, configured necessary SDKs, resolved errors, and successfully ran the default basic app on the emulator.",
     "image": "androidsetup",
@@ -196,7 +196,7 @@ async function fetchData(type = "skills") {
       "code": "https://github.com/ZeeshanMughaal/android-emulator-setup"
     }
   }
-]`;
+];
   }
   // ? (response = await fetch("skills.json"))
   // : (response = await fetch("./projects/projects.json"));
