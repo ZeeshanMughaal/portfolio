@@ -187,13 +187,13 @@ async function fetchData(type = "skills") {
   } else {
   data = `[
   {
-    "name": "Android Studio Basic App",
+    "name": "React Native Basic App",
     "desc": "Installed Android Studio, configured necessary SDKs, resolved errors, and successfully ran the default basic app on the emulator.",
-    "image": "androidsetup",
+    "image": "ReactNative",
     "category": "android",
     "links": {
       "view": "https://www.linkedin.com/in/zeeshanmughaal",
-      "code": "https://github.com/ZeeshanMughaal/android-emulator-setup"
+      "code": "https://github.com/ZeeshanMughaal/FirstReactNativeApp"
     }
   }
 ]`;
