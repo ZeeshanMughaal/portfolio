@@ -247,18 +247,9 @@ function showProjects(projects) {
   let projectHTML = "";
   console.log(JSON.parse(projects));
   JSON.parse(projects).filter((project) => project.category === "android").forEach((project) => {
-    var img="";
-    if(project.image=='TwoFactorAuthentication'){
-       img=`<video width="320" height="240" controls draggable="false">
-                            <source src="assets/images/projects/${project.image}.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>`;
-    }else{
-      img=`<img draggable="false" src="assets/images/projects/${project.image}.png" alt="project" />`;
-    }
       projectHTML += `
         <div class="box tilt">
-      ${img}
+<img draggable="false" src="assets/images/projects/${project.image}.png" alt="project" />
       <div class="content">
         <div class="tag">
         <h3>${project.name}</h3>
