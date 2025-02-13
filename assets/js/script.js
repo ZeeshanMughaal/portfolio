@@ -211,7 +211,7 @@ async function fetchData(type = "skills") {
   {
     "name": "Two Factor Authenticator Application For Suitecrm 8",
     "desc": "All in one SPPU Engineering resources. Built using Java, XML and Firebase.",
-    "image": "TwoFactorAuthenticationPackageForSuiteCRM8",
+    "image": "TwoFactorAuthentication",
     "category": "android",
     "links": {
       "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
@@ -248,7 +248,7 @@ function showProjects(projects) {
   console.log(JSON.parse(projects));
   JSON.parse(projects).filter((project) => project.category === "android").forEach((project) => {
     var img="";
-    if(project.image=='TwoFactorAuthenticationPackageForSuiteCRM8'){
+    if(project.image=='TwoFactorAuthentication'){
        img=`<video width="320" height="240" controls draggable="false">
                             <source src="assets/images/projects/${project.image}.mp4" type="video/mp4">
                             Your browser does not support the video tag.
