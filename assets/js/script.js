@@ -209,9 +209,9 @@ async function fetchData(type = "skills") {
     }
   },
   {
-    "name": "SPPU Engg Prep",
+    "name": "Two Factor Authenticator Application For Suitecrm 8",
     "desc": "All in one SPPU Engineering resources. Built using Java, XML and Firebase.",
-    "image": "sppuprepandroid",
+    "image": "TwoFactorAuthenticationPackageForSuiteCRM8",
     "category": "android",
     "links": {
       "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
@@ -567,9 +567,15 @@ function showProjects(projects) {
   let projectHTML = "";
   console.log(JSON.parse(projects));
   JSON.parse(projects).filter((project) => project.category === "android").forEach((project) => {
+    var img="";
+    if(project.image=='TwoFactorAuthenticationPackageForSuiteCRM8'){
+       img=`<img draggable="false" src="assets/images/projects/${project.image}.png" alt="project" />`;
+    }else{
+      img=`<img draggable="false" src="assets/images/projects/${project.image}.png" alt="project" />`;
+    }
       projectHTML += `
         <div class="box tilt">
-      <img draggable="false" src="assets/images/projects/${project.image}.png" alt="project" />
+      ${img}
       <div class="content">
         <div class="tag">
         <h3>${project.name}</h3>
