@@ -569,7 +569,10 @@ function showProjects(projects) {
   JSON.parse(projects).filter((project) => project.category === "android").forEach((project) => {
     var img="";
     if(project.image=='TwoFactorAuthenticationPackageForSuiteCRM8'){
-       img=`<img draggable="false" src="assets/images/projects/${project.image}.png" alt="project" />`;
+       img=`<video controls draggable="false">
+                            <source src="assets/images/projects/${project.image}.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>`;
     }else{
       img=`<img draggable="false" src="assets/images/projects/${project.image}.png" alt="project" />`;
     }
