@@ -221,8 +221,8 @@ async function fetchData(type = "skills") {
   {
     "name": "Google Gemini AI Integration with SuiteCRM 8",
     "desc": "Custom AI-powered automation system built by integrating Google Gemini with SuiteCRM 8. Enhances lead handling, email automation, and data insights using REST APIs and custom scripts.",
-    "image": "image(4)",
-    "category": "crm-ai-integration",
+    "image": "image (4)",
+    "category": "android",
     "links": {
       "view": "https://youtu.be/MvFd9Lx3T4Y",
       "code": "https://github.com/your-username/gemini-suitecrm-integration"
