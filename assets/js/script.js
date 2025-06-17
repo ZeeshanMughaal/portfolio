@@ -214,7 +214,7 @@ async function fetchData(type = "skills") {
     "image": "TwoFactorAuthentication",
     "category": "android",
     "links": {
-      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
+      "view": "https://store.suitecrm.com/addons/google-authentication",
       "code": "https://github.com/jigar-sable/sppu-prep-android"
     }
   },
