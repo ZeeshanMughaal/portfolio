@@ -217,7 +217,17 @@ async function fetchData(type = "skills") {
       "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
       "code": "https://github.com/jigar-sable/sppu-prep-android"
     }
+  },
+  {
+  "name": "Google Gemini AI Integration with SuiteCRM 8",
+  "desc": "Custom AI-powered automation system built by integrating Google Gemini with SuiteCRM 8. Enhances lead handling, email automation, and data insights using REST APIs and custom scripts.",
+  "image": "GeminiSuiteCRMIntegration",
+  "category": "crm-ai-integration",
+  "links": {
+    "view": "https://youtu.be/MvFd9Lx3T4Y",  // Replace with your actual YouTube link
+    "code": "https://github.com/your-username/gemini-suitecrm-integration"  // Replace with your GitHub repo link if available
   }
+}
 ]`;
   }
   // ? (response = await fetch("skills.json"))
