@@ -227,6 +227,16 @@ async function fetchData(type = "skills") {
       "view": "https://youtu.be/MvFd9Lx3T4Y",
       "code": "https://github.com/your-username/gemini-suitecrm-integration"
     }
+  },
+  {
+    "name": "SuiteCRM ↔ Xero Integration",
+    "desc": "Bi‑directional sync between SuiteCRM and Xero. Automatically synchronizes invoices, contacts & products using webhooks, ensuring data integrity and seamless accounting workflows.",
+    "image": "image (6)",
+    "category": "android",
+    "links": {
+      "view": "https://store.suitecrm.com/addons/xero-integration",
+      "code": ""
+    }
   }
 ]
 `;
