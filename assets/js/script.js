@@ -215,12 +215,12 @@ async function fetchData(type = "skills") {
     "category": "android",
     "links": {
       "view": "https://store.suitecrm.com/addons/google-authentication",
-      "code": "https://github.com/jigar-sable/sppu-prep-android"
+      "code": ""
     }
   },
   {
     "name": "Google Gemini AI Integration with SuiteCRM 8",
-    "desc": "Custom AI-powered automation system built by integrating Google Gemini with SuiteCRM 8. Enhances lead handling, email automation, and data insights using REST APIs and custom scripts.",
+    "desc": "Custom AI-powered automation system built by integrating Google Gemini with SuiteCRM 8. Enhances lead handling, email automation.",
     "image": "image (4)",
     "category": "android",
     "links": {
