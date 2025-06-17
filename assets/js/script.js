@@ -209,7 +209,7 @@ async function fetchData(type = "skills") {
     }
   },
   {
-    "name": "Two Factor Authenticator Application For Suitecrm 8",
+    "name": "Two Factor Authenticator Application For SuiteCRM 8",
     "desc": "All in one SPPU Engineering resources. Built using Java, XML and Firebase.",
     "image": "TwoFactorAuthentication",
     "category": "android",
@@ -219,16 +219,17 @@ async function fetchData(type = "skills") {
     }
   },
   {
-  "name": "Google Gemini AI Integration with SuiteCRM 8",
-  "desc": "Custom AI-powered automation system built by integrating Google Gemini with SuiteCRM 8. Enhances lead handling, email automation, and data insights using REST APIs and custom scripts.",
-  "image": "image (4).png",
-  "category": "crm-ai-integration",
-  "links": {
-    "view": "https://youtu.be/MvFd9Lx3T4Y",  // Replace with your actual YouTube link
-    "code": "https://github.com/your-username/gemini-suitecrm-integration"  // Replace with your GitHub repo link if available
+    "name": "Google Gemini AI Integration with SuiteCRM 8",
+    "desc": "Custom AI-powered automation system built by integrating Google Gemini with SuiteCRM 8. Enhances lead handling, email automation, and data insights using REST APIs and custom scripts.",
+    "image": "image (4).png",
+    "category": "crm-ai-integration",
+    "links": {
+      "view": "https://youtu.be/MvFd9Lx3T4Y",
+      "code": "https://github.com/your-username/gemini-suitecrm-integration"
+    }
   }
-}
-]`;
+]
+`;
   }
   // ? (response = await fetch("skills.json"))
   // : (response = await fetch("./projects/projects.json"));
