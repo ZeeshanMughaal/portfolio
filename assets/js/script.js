@@ -247,6 +247,16 @@ async function fetchData(type = "skills") {
       "view": "https://youtu.be/D7fcapmlo2M",
       "code": ""
     }
+  },
+    {
+    "name": "Google Auth Integration with SuiteCRM 8.5",
+    "desc": "Integrated Google OAuth with SuiteCRM 8.5 using Angular, enabling secure user login by matching authenticated Google emails with SuiteCRM users",
+    "image": "image (8)",
+    "category": "android",
+    "links": {
+      "view": "https://youtu.be/vAuWWkKyixI",
+      "code": ""
+    }
   }
 ]`;
   }
