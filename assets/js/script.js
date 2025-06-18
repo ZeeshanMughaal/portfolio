@@ -236,6 +236,15 @@ async function fetchData(type = "skills") {
     "links": {
       "view": "https://store.suitecrm.com/addons/xero-integration",
       "code": ""
+    },
+    {
+    "name": "Google Login Integration",
+    "desc": "Implemented secure Google OAuth 2.0 login with a responsive UI, robust token management, and seamless integration for streamlined user authentication.",
+    "image": "image (7)",
+    "category": "android",
+    "links": {
+      "view": "https://youtu.be/D7fcapmlo2M",
+      "code": ""
     }
   }
 ]
