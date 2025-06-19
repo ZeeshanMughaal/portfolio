@@ -224,7 +224,7 @@ async function fetchData(type = "skills") {
     "image": "image (4)",
     "category": "android",
     "links": {
-      "view": "https://youtu.be/MvFd9Lx3T4Y",
+      "view": "https://youtu.be/w5kd_G_JiJs",
       "code": "https://github.com/your-username/gemini-suitecrm-integration"
     }
   },
