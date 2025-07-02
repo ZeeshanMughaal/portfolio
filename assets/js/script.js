@@ -269,8 +269,8 @@ async function fetchData(type = "skills") {
     }
   },
     {
-    "name": "Privacy-Focused Data Extraction Tool",
-    "desc": "Built a scraper that sends sequential requests via Tor proxy to extract public web data anonymously and store it locally, respecting access rules and rate limits.",
+    "name": "Brute Force-Style Data harvesting Data Extraction Tool",
+    "desc": "Built a tool that automates form submissions with sequential IDs to extract publicly available records, simulating brute-force-style data harvesting for analysis and testing.",
     "image": "DataEncryption",
     "category": "android",
     "links": {
