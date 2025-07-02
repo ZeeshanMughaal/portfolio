@@ -257,6 +257,16 @@ async function fetchData(type = "skills") {
       "view": "https://youtu.be/vAuWWkKyixI",
       "code": ""
     }
+  },
+  {
+    "name": "Custom Triple-Layer Encryption System for Secure WordPress Data Storage",
+    "desc": "Implemented a custom 3-layer encryption (Substitution, Vigenère, Enigma) in WordPress to securely store and retrieve data from the database with reversible decryption.",
+    "image": "image (8)",
+    "category": "android",
+    "links": {
+      "view": "https://youtu.be/vAuWWkKyixI",
+      "code": ""
+    }
   }
 ]`;
   }
