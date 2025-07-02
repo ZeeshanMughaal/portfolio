@@ -267,6 +267,16 @@ async function fetchData(type = "skills") {
       "view": "https://youtu.be/h5g2d5j5gRA",
       "code": ""
     }
+  },
+    {
+    "name": "Privacy-Focused Data Extraction Tool",
+    "desc": "Built a scraper that sends sequential requests via Tor proxy to extract public web data anonymously and store it locally, respecting access rules and rate limits.",
+    "image": "DataEncryption",
+    "category": "android",
+    "links": {
+      "view": "https://youtu.be/h5g2d5j5gRA",
+      "code": ""
+    }
   }
 ]`;
   }
