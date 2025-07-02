@@ -264,7 +264,7 @@ async function fetchData(type = "skills") {
     "image": "DataEncryption",
     "category": "android",
     "links": {
-      "view": "https://youtu.be/vAuWWkKyixI",
+      "view": "https://youtu.be/h5g2d5j5gRA",
       "code": ""
     }
   }
