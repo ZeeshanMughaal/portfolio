@@ -270,7 +270,7 @@ async function fetchData(type = "skills") {
   },
     {
     "name": "Brute Force-Style Data harvesting Data Extraction Tool",
-    "desc": "Built a tool that automates form submissions with sequential IDs to extract publicly available records, simulating brute-force-style data harvesting for analysis and testing.",
+    "desc": "Automates brute-force-style form submissions using sequential IDs and sends requests through proxies (via Tor) to extract public data anonymously for research and testing.",
     "image": "DataEncryption",
     "category": "android",
     "links": {
